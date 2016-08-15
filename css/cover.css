@@ -3,11 +3,11 @@
  */
 
 path.hexagon {
-	  -webkit-transition: all .8s ease-out;
-     -moz-transition: all .8s ease;
-       -o-transition: all .8s ease;
-      -ms-transition: all .8s ease;
-          transition: all .8s ease;
+	  -webkit-transition: all .75s ease-out;
+     -moz-transition: all .75s ease-out;
+       -o-transition: all .75s ease-out;
+      -ms-transition: all .75s ease-out;
+          transition: all .75s ease-out;
 }
 path.hexagon:hover {
 	/*fill: springgreen !important;*/
