@@ -1,6 +1,18 @@
 /*
  * Globals
  */
+path.hexagon {
+	  -webkit-transition: all .8s ease-out;
+     -moz-transition: all .8s ease;
+       -o-transition: all .8s ease;
+      -ms-transition: all .8s ease;
+          transition: all .8s ease;
+}
+path.hexagon:hover {
+	/*fill: springgreen !important;*/
+	opacity: 1 !important;
+	stroke: white !important;
+}
 
 /* Links */
 a,
