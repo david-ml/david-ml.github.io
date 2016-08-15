@@ -1,6 +1,7 @@
 /*
  * Globals
  */
+
 path.hexagon {
 	  -webkit-transition: all .8s ease-out;
      -moz-transition: all .8s ease;
@@ -59,6 +60,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  z-index: 1;
 }
 .cover-container {
   margin-right: auto;
