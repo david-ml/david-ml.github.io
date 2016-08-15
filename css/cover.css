@@ -24,14 +24,26 @@ a:hover {
 
 /* Custom default button */
 .btn-default,
-.btn-default:hover,
-.btn-default:focus {
+.btn-default:focus{
+  transition: all .5s ease;
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: springgreen;
+  border: 3px solid white;
 }
 
+.btn-default:hover {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: white;
+  border: 3px solid white;
+}
+.btn-default:active {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  border: 3px solid white;
+  background-color: steelblue;
+}
 
 /*
  * Base structure
@@ -141,6 +153,13 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+span.heart {
+	color: springgreen !important;
+}
+
+span.wave {
+  color: steelblue !important;
+}
 
 /*
  * Affix and center
